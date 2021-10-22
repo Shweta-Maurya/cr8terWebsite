@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+    <head>
+        <title>index</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        <div class="hero">
+            <div class="nav-bar">
+                <div class="nav-logo">
+                   
+                </div>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-close" onclick="closeMenu()"></i>
+                    <ul>
+                        <a href="index.html"><li>HOME</li></a>
+                       
+                        <a href="contact%20us.html"><li>CONTACT US</li></a>
+                        <a href="aboutus.html"><li>ABOUT US</li></a>
+                    </ul>
+                    <button type="button" class="btn">SIGN UP</button>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+            <div class="banner-title">
+                <h1>Celebration <span> Doesn't <br>have a religion.</span> It is a religion</h1>
+                 <button type="button" class="btn">FESTIVAL</button>
+                 <button type="button" class="btn">DATES</button>
+            </div>
+            <div class="vertical-bar">
+                <div class="search-icon">
+                <!--<i class="fa fa-th-list"></i> 
+                <i class="fa fa-search"></i> -->
+                </div>
+                 <div class="social-icons">
+                     <i class="fa fa-facebook"></i>
+                     
+                      <i class="fa fa-pinterest"></i>
+                </div>
+            </div>    
+        </div>
+        <script>
+            var show = document.getElementById("nav-links");
+            function showMenu(){
+                show.style.right = "0";   
+            }
+            
+              function closeMenu(){
+                show.style.right = "-200px";   
+            }
+        </script>
+
+        <footer>
+            <div class="main-content">
+                <div class="left box">
+                    <h2>About us</h2>
+                    <div class="content">
+                        <div class="p" > <p>;afskljfdhdgkhds;fjkdsjfewiouiweriewjdksjklfjdsjfijeifjsifjds</p>
+                        </div>
+                        <div class="social">
+                            <a href=""><span class="fab fa-facebook-f"></span></a>
+                             <a href=""><span class="fab fa-twitter"></span></a>
+                             <a href=""><span class="fab fa-instagram"></span></a>
+                             <a href=""><span class="fab fa-youtube"></span></a>
+                          </div>
+                    </div>
+                </div>
+                <div class="center box">
+                    <h2>Address</h2>
+                    <div class="content">
+                        <div class="place">
+                            <span class="fas fa-map-maker-alt"></span>
+                            <span class="text">Dwarka, Delhi</span>
+                        </div>
+                         <div class="phone">
+                            <span class="fas fa-phone-alt"></span>
+                            <span class="text">7007673117</span>
+                        </div>
+                         <div class="email">
+                            <span class="fas fa-envelope"></span>
+                            <span class="text">cr8ter.online@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="right box">
+                    <h2>Contact Us</h2>
+                    <div class="content">
+                        <form action="#">
+                            <div class="email">
+                                <div class="text">Email *</div>
+                                <input type="email" required>
+                            </div>
+                            <div class="msg">
+                               <div class="text" >Message *</div>
+                                <textarea rows="2" cols="28"></textarea>
+                            </div>
+                            <div class="btn2">
+                                <button type="submit">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <center>
+                    <span class="credit">Created By <a href="#">Cr8teronline</a> |  </span>
+                      <span class="far fa-copyright"></span><span>2020 All rights reserved.</span>
+                </center>
+            </div>
+        </footer>
+    </body>
+</html>

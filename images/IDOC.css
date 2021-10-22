@@ -1,0 +1,34 @@
+body{
+   
+    margin: 0;
+    padding: 0;
+}
+.contain{
+     background-color:#FFFAFA;
+}
+.contain h1{
+    text-align: center;
+}
+.content1{
+    text-align: center;
+    justify-content: space-around;
+}
+.content1 p{
+    box-sizing: border-box;
+}
+.img-thumbnail{
+    width: 400px;
+    height: 300px;
+}
+@media screen and (min-width:801px){
+   .contain h1{
+        font-size: 55px;
+    }
+   
+}
+@media screen and (max-width:800px){
+    .contain h1{
+        font-size: 38px;
+    }
+    
+}
